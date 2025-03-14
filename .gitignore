@@ -1,0 +1,11 @@
+# Firebase configuration (if you keep a local copy)
+firebaseConfig.json
+
+# Environment variables (if you use them)
+.env
+
+# Node modules (if it's a Node.js project)
+node_modules/
+
+# Other sensitive files or directories
+# ...

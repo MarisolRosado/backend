@@ -1,0 +1,22 @@
+{
+  "name": "taxi-tracker",
+  "version": "1.0.0",
+  "description": "A Node.js backend project that sends form data to Firebase and displays random moving taxis on a map.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^9.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
