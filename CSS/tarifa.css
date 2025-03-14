@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+}
+
+form{
+    text-align: center;
+    margin: auto;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(9px);
+}
+h1{
+    text-align: center;
+}

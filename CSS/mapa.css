@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+/* Contenedor del mapa */
+#map {
+    height: 600px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los marcadores */
+.gm-style .gm-style-iw {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.gm-style .gm-style-iw h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+
+.gm-style .gm-style-iw p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.gm-style .gm-style-iw img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Botones de control del mapa */
+.gm-control-active {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    margin: 5px;
+}
+
+.gm-control-active:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título */
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}

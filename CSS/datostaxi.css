@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+MX+Guides&display=swap');
+
+body{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    background-image: url(/imagen/3.jpg);
+    font-weight: weight;
+    font-style: normal;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center; 
+}
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center; 
+}
+form {
+    background-size: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    max-width: 400px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(9px);
+    margin: auto;
+}
+input[type="text"], input[type="date"], input[type="time"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}

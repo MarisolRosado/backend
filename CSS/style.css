@@ -1,0 +1,60 @@
+body {
+    background-color: #f0f8ff; /* Fondo azul claro */
+    font-family: 'Arial', sans-serif; /* Fuente más legible */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color de texto principal */
+}
+
+#taxistas {
+    padding: 30px; /* Aumenta el espacio alrededor del contenido */
+    text-align: center;
+}
+
+#taxistas h2 {
+    color: #007bff; /* Color azul para el título */
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px; /* Espacio entre las filas */
+}
+
+.taxista {
+    border: 1px solid #ddd; /* Borde más claro */
+    padding: 20px; /* Aumenta el espacio dentro de cada taxista */
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: transform 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.taxista:hover {
+    transform: translateY(-5px); /* Eleva el taxista al pasar el mouse */
+}
+
+.taxista img {
+    width: 120px; /* Reduce el tamaño de la imagen */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #007bff; /* Borde azul alrededor de la imagen */
+}
+
+.taxista h3 {
+    margin-top: 0;
+    color: #007bff; /* Color azul para el nombre */
+}
+
+.taxista p {
+    margin: 5px 0;
+}
